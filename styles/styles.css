@@ -1,0 +1,54 @@
+/* Reglas generales */
+* {
+  margin: 10px;
+  padding: 10px;
+
+  /* la cajas no se desbordan unas con otras */
+  box-sizing: border-box;
+}
+
+.header {
+  background: #000;
+}
+
+    .menu {
+    background: #80558c;
+    display: flex;
+    }
+
+        .logo {
+        background: #af7ab3;
+        }
+
+        .nav {
+        background: #af7ab3;
+        }
+
+        .social {
+        background: #af7ab3;
+    }
+
+    .texto-principal{
+    background: #cba0ae;
+    }
+
+    h1{
+        background: yellow;
+    }
+
+.section {
+  background: #000;
+}
+
+    .articulos{
+        background:#E4D192 ;
+    }
+
+        .article{
+            background: #E4DCCF;
+
+    }
+
+.footer {
+  background: #000;
+}
