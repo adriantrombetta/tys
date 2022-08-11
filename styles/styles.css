@@ -1,10 +1,11 @@
 /* Reglas generales */
 * {
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
 
   /* la cajas no se desbordan unas con otras */
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .padre{
@@ -13,37 +14,61 @@
 }
 
 .header {
-  background: #000;
+  background: rgb(126, 36, 36);
   display: flex;
   flex-flow: column nowrap;
 }
 
     .menu {
-    background: #80558c;
+    background: rgba (0,0,0,.1);
     display: flex;
-    flex-flow: row nowrap;
-    height: 100px;
+    /* flex-flow: row nowrap; */
+    height: 60px;
     align-items: center;
-
-
+    border-bottom: solid rgba(255, 255, 255, .5);
     }
 
         .logo {
-        background: #af7ab3;
+        
         flex:1 1 auto;
-        height: 30px;
+        display: flex;
+        }
+
+        .logo a{
+          color: white;
+          font-size: 30px;
+  
+        }
+
+        .logo a:hover{
+          color:#343434;
         }
 
         .nav {
-        background: #af7ab3;
+          display: flex;
+          align-items: center;
         flex:5 1 auto;
-        height: 30px;
         }
 
+        .nav a {
+          align-items: center;
+          color: #fff;
+          font-size: 11px;
+          text-transform: uppercase;
+          padding: 0 10px;
+          letter-spacing: 2px;
+        }
+
+        /* .nav a div{
+          color: #fff;
+          font-size: 11px;
+          text-transform: uppercase;
+          padding: 0 10px;
+          letter-spacing: 2px;
+        } */
+
         .social {
-        background: #af7ab3;
         flex:1 1 auto;
-        height: 30px;
     }
 
     .texto-principal{
