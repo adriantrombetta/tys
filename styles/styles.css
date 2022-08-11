@@ -47,7 +47,7 @@
         .nav {
           display: flex;
           align-items: center;
-        flex:5 1 auto;
+          flex:5 1 auto;
         }
 
         .nav a {
@@ -59,13 +59,7 @@
           letter-spacing: 2px;
         }
 
-        /* .nav a div{
-          color: #fff;
-          font-size: 11px;
-          text-transform: uppercase;
-          padding: 0 10px;
-          letter-spacing: 2px;
-        } */
+
 
         .social {
         flex:1 1 auto;
